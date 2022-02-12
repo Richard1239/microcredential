@@ -1,0 +1,97 @@
+*{box-sizing: border-box;}
+body{
+    background-image: url(images2/strawhats.jpg);
+    background-size: 40%;
+}
+.head{  
+      font-family: 'Mochiy Pop P One', sans-serif;
+      background-color: rgba(0, 0, 255, 0.8);
+      position: relative;
+      width: auto;
+      width: 1450px;
+      font-size: 5em;
+      padding: 20px 10%;
+  }
+.head a{
+    color: darkorange;
+}  
+.a{
+    opacity: 0;
+    animation: bigletter 1s forwards;
+}
+.b{
+    opacity: 0;
+    animation: bigletter 1s 1s forwards;
+}
+.c{
+    opacity: 0;
+    animation: bigletter 1s 2s forwards;
+}
+.d{
+    opacity: 0;
+    animation: bigletter 1s 3s forwards;
+}
+.e{
+    opacity: 0;
+    animation: bigletter 1s 4s forwards;
+}
+.f{
+    opacity: 0;
+    animation: bigletter 1s 5s forwards;
+}
+.g{
+    opacity: 0;
+    animation: bigletter 1s 6s forwards;
+}
+.h{
+    opacity: 0;
+    animation: bigletter 1s 7s forwards;
+}
+@keyframes bigletter{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+.icon{
+    position: absolute;
+    top: 10%;
+    width: 8%;
+    height: 13%;
+    left: 20px;
+}    
+.Purchase{
+    margin: 80px auto;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    background-color: rgba(0, 0, 255, 0.8);
+}
+.item{
+    width: 200px;
+    height: 200px;
+    margin-right: 10px;
+}
+.item img{
+    width: 100%;
+}
+.info{
+    float: right;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    color: darkorange;
+    margin-left: 10%;
+}
+.cart{
+    font-family: 'Mochiy Pop P One', sans-serif;
+    color: darkorange;
+    text-align: left;
+    font-size: 2em;
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+.price{
+    font-family: 'Mochiy Pop P One', sans-serif;
+    color: darkorange;
+}

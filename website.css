@@ -1,0 +1,515 @@
+*{box-sizing: border-box;}
+body{
+    background-image: url(images2/strawhats.jpg);
+}
+.head{  
+      font-family: 'Mochiy Pop P One', sans-serif;
+      color: darkorange;
+      background-color: rgba(0, 0, 255, 0.8);
+      position: relative;
+      width: auto;
+  }
+.a{
+    opacity: 0;
+    animation: bigletter 1s forwards;
+}
+.b{
+    opacity: 0;
+    animation: bigletter 1s 1s forwards;
+}
+.c{
+    opacity: 0;
+    animation: bigletter 1s 2s forwards;
+}
+.d{
+    opacity: 0;
+    animation: bigletter 1s 3s forwards;
+}
+.e{
+    opacity: 0;
+    animation: bigletter 1s 4s forwards;
+}
+.f{
+    opacity: 0;
+    animation: bigletter 1s 5s forwards;
+}
+.g{
+    opacity: 0;
+    animation: bigletter 1s 6s forwards;
+}
+.h{
+    opacity: 0;
+    animation: bigletter 1s 7s forwards;
+}
+@keyframes bigletter{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+.icon{
+    position: absolute;
+}    
+.webslide{
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+.textSlideshow{
+    width: 300%;
+    height: 100%;
+    animation: slideshow 20s infinite backwards;
+}
+.textSlide{
+    width: 33.333%;
+    float: left;
+    height: 100%;
+    text-align: center;
+}
+.textSlide:nth-child(1){
+    color: darkorange;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    background-color: rgba(0, 0, 255, 0.8);
+    animation-delay: 0s;
+}
+.textSlide:nth-child(2){
+    color: darkorange;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    background-color: rgba(0, 0, 255, 0.8);
+    animation-delay: 0s;
+}
+.textSlide:nth-child(3){
+    color: darkorange;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    background-color: rgba(0, 0, 255, 0.8);
+    animation-delay: 0s;
+}
+@keyframes slideshow{
+    0%{margin-left: 0%;}
+    20%{margin-left: 0%;}
+    33%{margin-left: -100%;}
+    66%{margin-left: -100%;}
+    80%{margin-left: -200%;}
+    95%{margin-left: -200%;}
+}
+.big1{
+    position: relative;
+    width: 100%;
+}
+.p1{
+    position: absolute;
+    font-size: 1.5em;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    color: darkorange;
+    background-color: rgba(0, 0, 255, 0.4); 
+    bottom: 15%;
+    left: 10%;
+}
+.Sale{
+    width: 30%;
+    height: 100%;
+    float: left;
+    margin-left: 3%;
+    position: relative;
+}
+.imgContainer img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.link1{
+    color: blue;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    right: 40%;
+    bottom: 0%;
+    position: absolute;
+    text-decoration: none;
+    outline: none;
+}
+.link2{
+    color: blue;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    left: 20%;
+    bottom: 0%;
+    position: absolute;
+    text-decoration: none;
+    outline: none;
+}
+.link3{
+    color: blue;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    left: 25%;
+    bottom: 0%;
+    position: absolute;
+    text-decoration: none;
+    outline: none;
+}
+.link1:hover{
+    text-decoration: underline;
+    color: darkorange;
+}
+.link2:hover{
+    text-decoration: underline;
+    color: darkorange;
+}
+.link3:hover{
+    text-decoration: underline;
+    color: darkorange;
+}
+.modalWindow{
+    background-color: rgba(0, 0, 255, 0.4);
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    opacity: 0;
+    pointer-events: none;
+}
+.modalWindow:target{
+    opacity: 1;
+    pointer-events: all;
+    transition: ease-in 0.5s;
+}
+.content{
+    border-radius: 20px ;
+    background-color: rgba(0, 180, 180, 0.4);
+    margin: auto;
+    position: relative;
+}
+.img{
+    width: 45%;
+    margin: 5%;
+}
+.p{
+    font-family: 'Mochiy Pop P One', sans-serif;
+    color: darkorange; 
+    position: absolute;
+}
+.close{
+    text-decoration: none;
+    height: 20px;
+    color: darkorange;
+    padding-left: 10px;
+}
+.close:hover{
+    color: red;
+}
+.add1{
+    font-family: 'Mochiy Pop P One', sans-serif;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(0, 180, 180, 0.4);
+}
+.add1:hover{
+    color: red;
+}
+.add2{
+    font-family: 'Mochiy Pop P One', sans-serif;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(0, 180, 180, 0.4);
+}
+.add2:hover{
+    color: red;
+}
+.add3{
+    font-family: 'Mochiy Pop P One', sans-serif;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(0, 180, 180, 0.4);
+}
+.add3:hover{
+    color: red;
+}
+.socials{
+    font-family: 'Mochiy Pop P One', sans-serif;
+    color: darkorange;
+    text-align: center;
+    background-color: rgba(0, 0, 255, 0.8);
+    position: relative;
+}
+.media{
+    position: absolute;
+}
+.media p{
+    font-family: 'Mochiy Pop P One', sans-serif;
+    color: darkorange;
+}
+.i1{
+    margin: 0px 10px;
+}
+.i2{
+    margin: 0px 10px;
+}
+.i3{
+    margin: 0px 10px;
+}            
+@media only screen and (min-width: 900px){
+body{
+    background-image: url(images2/strawhats.jpg);
+    background-size: 40%;
+}    
+.head{
+      width: 1450px;
+      font-size: 5em;
+      padding: 20px 10%;
+      left: 2%;
+  }
+.icon{
+    top: 10%;
+    width: 8%;
+    height: 13%;
+    left: 50px;
+}      
+.webslide{
+    margin-left: 8%;
+    width: 1300px;
+    height: 60px;
+}
+.textSlide:nth-child(1){
+    font-size: 2em;
+    padding-top: 10px;
+}
+.textSlide:nth-child(2){
+    font-size: 2em;
+    padding-top: 10px;
+}
+.textSlide:nth-child(3){
+    font-size: 2em;
+    padding-top: 10px;
+} 
+.bigimagecontainer{
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 8%;
+}
+.p1{
+    font-size: 1.5em;
+    width: 40%;
+    bottom: 20%;
+    left: 12.5%;     
+}
+.imgContainer{
+    width: 1450px;
+    height: 500px;
+}
+.imgContainer img{
+    left: 3%;
+}
+.link1{
+    font-size: 1.5em;
+    margin-left: 22px;
+}
+.link2{
+    font-size: 1.5em;
+    margin-left: 15px;
+}
+.link3{
+    font-size: 1.5em;
+    margin-left: 15px;
+}
+.content{
+    width: 550px;
+    height: 450px;
+    margin-top: 100px;
+}
+.p{
+    bottom: 5%;
+}
+.socials{
+    font-size: 1.5em;
+    height: 120px;
+}
+.media{
+    top: 235%;
+    left: 40.5%;
+}
+.i1{
+    width: 40px;
+}
+.i2{
+    width: 40px;
+}
+.i3{
+    width: 40px;
+}
+}
+@media only screen and (max-width: 899px) and (min-width: 450px){
+    body{
+        background-image: url(images2/strawhats.jpg);
+        background-size: 50%; 
+    }
+    .head{
+        width: 750px;
+        font-size: 3em;
+        padding: 20px 10%;
+    }
+  .icon{
+      top: 5%;
+      width: 8%;
+      height: 8%;
+      left: 20px;
+  }      
+  .webslide{
+      margin-left: 8%;
+      width: 650px;
+      height: 60px;
+  }
+  .textSlide:nth-child(1){
+      font-size: 2em;
+      padding-top: 10px;
+  }
+  .textSlide:nth-child(2){
+      font-size: 2em;
+      padding-top: 10px;
+  }
+  .textSlide:nth-child(3){
+      font-size: 2em;
+      padding-top: 10px;
+  } 
+  .bigimagecontainer{
+      width: 650px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-left: 8%;
+  }
+  .p1{
+      font-size: 1em;
+      width: 40%;
+      bottom: 60%;
+      left: 12.5%;     
+  }
+  .imgContainer{
+      width: 650px;
+      height: 250px;
+  }
+  .imgContainer img{
+      left: 20%;
+  }
+  .link1{
+      font-size: 1em;
+      left: 50px;
+  }
+  .link2{
+      font-size: 1em;
+  }
+  .link3{
+      font-size: 1em;
+  }
+  .content{
+      width: 550px;
+      height: 450px;
+      margin-top: 100px;
+  }
+  .p{
+      bottom: 5%;
+  }
+  .socials{
+      font-size: 1.5em;
+      height: 100px;
+  }
+  .media{
+      top: 240%;
+      left: 40%;
+  }
+  .i1{
+      width: 40px;
+  }
+  .i2{
+      width: 40px;
+  }
+  .i3{
+      width: 40px;
+  }
+  }
+  @media only screen and (max-width: 450px){
+    body{
+        background-image: url(images2/strawhats.jpg);
+        background-size: 50%;
+    }  
+    .head{
+        width: 400px;
+        font-size: 2em;
+        padding: 20px 10%;
+    }
+  .icon{
+      top: 4%;
+      width: 7%;
+      height: 6%;
+      left: 20px;
+  }      
+  .webslide{
+      margin-left: 8%;
+      width: 350px;
+      height: 60px;
+  }
+  .textSlide:nth-child(1){
+      font-size: 1.5em;
+      padding-top: 10px;
+  }
+  .textSlide:nth-child(2){
+      font-size: 1.5em;
+      padding-top: 10px;
+  }
+  .textSlide:nth-child(3){
+      font-size: 1.5em;
+      padding-top: 10px;
+  } 
+  .bigimagecontainer{
+      width: 350px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-left: 8%;
+  }
+  .p1{
+      font-size: 10px;
+      width: 45%;
+      bottom: 65%;
+      left: 12.5%;     
+  }
+  .imgContainer{
+      width: 350px;
+      height: 100px;
+  }
+  .imgContainer img{
+      left: 20%;
+  }
+  .link1{
+      font-size: 8px;
+      left: 35%;
+  }
+  .link2{
+      font-size: 8px;
+      left: 35%;
+  }
+  .link3{
+      font-size: 8px;
+      left: 35%
+  }
+  .content{
+      width: 400px;
+      height: 400px;
+      margin-top: 100px;
+  }
+  .p{
+      bottom: 5%;
+  }
+  .socials{
+      font-size: 1.5em;
+      height: 100px;
+  }
+  .media{
+      top: 240%;
+      left: 40%;
+  }
+  .i1{
+      width: 40px;
+  }
+  .i2{
+      width: 40px;
+  }
+  .i3{
+      width: 40px;
+  }
+}
